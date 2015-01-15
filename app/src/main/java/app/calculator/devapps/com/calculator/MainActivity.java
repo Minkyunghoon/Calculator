@@ -1,5 +1,6 @@
 package app.calculator.devapps.com.calculator;
 
+import android.media.audiofx.Equalizer;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -19,19 +20,28 @@ public class MainActivity extends ActionBarActivity {
 
         setContentView(R.layout.activity_main);
 
-        textView = (TextView) findViewById(R.id.txtInput);
-//        btnModify = (Button) findViewById(R.id.btnModify);
+//        btnPlus.setOnClickListener(listener);
+//        btnMinus.setOnClickListener(listener);
+//        btnMul.setOnClickListener(listener);
+//        btnDiv.setOnClickListener(listener);
+//        Num7.setOnClickListener(listener);
+//        Num8.setOnClickListener(listener);
+//        Num9.setOnClickListener(listener);
+//        Clear.setOnClickListener(listener);
+//        Num4.setOnClickListener(listener);
+//        Num5.setOnClickListener(listener);
+//        Num6.setOnClickListener(listener);
+//        Num0.setOnClickListener(listener);
+//        Num1.setOnClickListener(listener);
+//        Num2.setOnClickListener(listener);
+//        Num3.setOnClickListener(listener);
+//        Equal.setOnClickListener(listener);
 
-//        View.OnClickListener listener = new View.OnClickListener() {
-//            public void onClick(View v) {
-//                if(v.getId() == R.id.btnModify){
-//                    textView.setText("버튼이 눌렸습니다.");
-//                }
-//            }
-//        };
-//
-//        btnModify.setOnClickListener(listener);
-//
+
+
+
+
+
 
     }
 
@@ -58,7 +68,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onClick(View view) {
-        textView.setText("버튼 눌렸음.");
-    }
+//    public void onClick(View view) {
+//        textView.setText("버튼 눌렸음.");
+//    }
 }
